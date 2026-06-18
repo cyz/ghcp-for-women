@@ -69,13 +69,13 @@ export default function WomenTraining() {
             href="#paradigma" 
             className={`part-nav-btn ${activePart === 'parte1' ? 'active' : ''}`}
           >
-            🎙️ Parte 1: Visão &amp; Agentes
+            � Visão Geral &amp; CLI
           </a>
           <a 
             href="#parte2" 
             className={`part-nav-btn p2 ${activePart === 'parte2' ? 'active' : ''}`}
           >
-            👩‍💻 Parte 2: Hands-on / Técnico
+            💻 VS Code
           </a>
         </div>
       </nav>
@@ -494,7 +494,7 @@ export default function WomenTraining() {
               Cynthia introduziu a sessão com uma reflexão sobre a evolução do desenvolvimento de software e a transição das ondas de uso de IA, destacando o papel fundamental do <strong>Agentic SDLC</strong> (Ciclo de Vida de Desenvolvimento de Software Agêntico):
             </p>
 
-            <div className="grid g3 progression" style={{ marginBottom: '24px' }}>
+            <div className="grid waves-row progression" style={{ marginBottom: '24px' }}>
               <div className="card b-purple">
                 <span className="badge" style={{ background: 'var(--purple)' }}>Onda 1 (2021-2023)</span>
                 <h3>Pair Programmer</h3>

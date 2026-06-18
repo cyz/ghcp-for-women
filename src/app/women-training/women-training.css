@@ -713,3 +713,15 @@ nav.toc a.active .toc-num {
     gap: 6px;
   }
 }
+
+/* ── Waves Columns ── */
+.waves-row {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+}
+
+@media (max-width: 767px) {
+  .waves-row {
+    grid-template-columns: 1fr !important;
+  }
+}
